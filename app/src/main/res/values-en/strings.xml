@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="language_nl">Dutch</string>
+    <string name="language_en">English</string>
+    <string name="changing_text">You see this text in English</string>
+    <string name="changing_text2">This is the view for a tablet</string>
+    <string name="changing_image">"@drawable/ic_launcher"</string>
+</resources>

@@ -1,0 +1,56 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:navigationContentDescription="world"
+        android:background="@drawable/cat_eyes"
+        android:theme="@style/styleForToolbar">
+    </android.support.v7.widget.Toolbar>
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        >
+
+        <LinearLayout
+            android:id="@+id/activity_main_content"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:background="@color/theme_primary_light">
+
+            <Button
+                android:layout_width="match_parent"
+                android:id="@+id/go_back"
+                android:text="Go back to the first page"
+                android:layout_height="100dp" />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:id="@+id/go_to_page_with_list"
+                android:text="Go to the page with the list"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:id="@+id/open_urlGoogle"
+                android:text="Open google in external browser"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:id="@+id/open_Gmail"
+                android:text="Open gmail in this app"/>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

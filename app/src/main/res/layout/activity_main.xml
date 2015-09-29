@@ -1,0 +1,96 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:navigationContentDescription="world"
+        android:background="@drawable/cat_eyes"
+        android:theme="@style/styleForToolbar">
+
+        <!--<ImageView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:adjustViewBounds="true"-->
+             <!--/>-->
+
+    </android.support.v7.widget.Toolbar>
+
+    <!--<RadioGroup-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:orientation="horizontal">-->
+
+        <!--<RadioButton-->
+            <!--android:id="@+id/radio_nl"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:onClick="onRadioButtonClicked"-->
+            <!--android:text="@string/language_nl" />-->
+
+        <!--<RadioButton-->
+            <!--android:id="@+id/radio_en"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:onClick="onRadioButtonClicked"-->
+            <!--android:text="@string/language_en" />-->
+    <!--</RadioGroup>-->
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        >
+
+    <LinearLayout
+        android:id="@+id/activity_main_content"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:background="@color/theme_primary_light">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/changing_text"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:src="@drawable/android_icon"
+            android:background="@drawable/circle"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:id="@+id/go_to_next_page"
+            android:text="Go to the detail page"
+            android:layout_height="100dp" />
+        <Button
+            android:layout_width="match_parent"
+            android:id="@+id/open_popup"
+            android:text="Open a pop-up"
+            android:layout_height="100dp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:id="@+id/download_image"
+            android:text="Download an image"
+            android:layout_height="100dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:id="@+id/image1"
+            android:layout_height="500px" />
+
+    </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

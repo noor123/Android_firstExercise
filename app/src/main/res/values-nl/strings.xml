@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="language_nl">Nederlands</string>
+    <string name="language_en">Engels</string>
+    <string name="changing_text">Je ziet deze tekst in het Nederlands</string>
+    <string name="changing_text2">Dit is de view voor een tablet</string>
+</resources>
